@@ -1,0 +1,29 @@
+<project>
+    <!-- версия модели для POM-ов Maven 2.x всегда 4.0.0 -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- координаты проекта, то есть набор значений, который
+         позволяет однозначно идентифицировать этот проект -->
+    <groupId>com.mycompany.app</groupId>
+    <artifactId>tinkoff</artifactId>
+    <version>1.0</version>
+
+    <!-- зависимости от библиотек -->
+    <dependencies>
+        <dependency>
+            <!-- координаты необходимой библиотеки -->
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <!-- эта библиотека используется только для запуска и компилирования тестов -->
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.11</version>
+        </dependency>
+
+    </dependencies>
+</project>
